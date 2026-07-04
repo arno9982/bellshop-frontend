@@ -294,7 +294,7 @@ export default function CataloguePage() {
                       animate={{ opacity: 1, scale: 1 }}
                       transition={{ duration: 0.5 }}
                     >
-                      {produit.price} USD
+                      ${produit.price}
                     </motion.div>
                   </div>
 
