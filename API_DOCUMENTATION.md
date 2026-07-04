@@ -545,7 +545,7 @@ PUT /api/orders/1/status?status=LIVREE
 | `id` | Long | Identifiant unique (auto-généré) |
 | `title` | String (100) | Nom du produit |
 | `description` | Text | Description détaillée |
-| `price` | BigDecimal | Prix en euros (2 décimales) |
+| `price` | BigDecimal | Prix en dollars USD (2 décimales) |
 | `imageUrl` | String | URL vers l'image du produit |
 | `category` | String (50) | Catégorie (PULL, TSHIRT, CHEMISE, etc.) |
 | `available` | Boolean | Produit disponible à la vente |

@@ -294,7 +294,7 @@ export default function CataloguePage() {
                       animate={{ opacity: 1, scale: 1 }}
                       transition={{ duration: 0.5 }}
                     >
-                      {produit.price} EUR
+                      {produit.price} USD
                     </motion.div>
                   </div>
 
@@ -405,7 +405,7 @@ export default function CataloguePage() {
                       />
                       <div>
                         <p className="font-semibold text-amber-900">{selectedProduct.title}</p>
-                        <p className="text-amber-900 font-bold">{selectedProduct.price} EUR</p>
+                        <p className="text-amber-900 font-bold">${selectedProduct.price}</p>
                       </div>
                     </div>
                   </div>

@@ -230,7 +230,7 @@ export default function AdminOrders() {
                             ) : (
                               <div>
                                 <div className="font-medium text-stone-900">{order.product?.title}</div>
-                                <div className="text-amber-900 font-semibold">{order.product?.price} EUR</div>
+                                <div className="text-amber-900 font-semibold">${order.product?.price}</div>
                               </div>
                             )}
                           </td>

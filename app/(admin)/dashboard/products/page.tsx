@@ -346,7 +346,7 @@ export default function AdminProducts() {
                   </div>
 
                   <div>
-                    <label className="block text-sm font-semibold text-stone-900 mb-2">Prix (EUR) *</label>
+                    <label className="block text-sm font-semibold text-stone-900 mb-2">Prix (USD) *</label>
                     <input
                       type="number"
                       required
@@ -524,7 +524,7 @@ export default function AdminProducts() {
                       </td>
                       <td className="px-6 py-4 text-sm text-stone-600">{product.category}</td>
                       <td className="px-6 py-4">
-                        <span className="font-bold text-amber-900">{product.price} EUR</span>
+                        <span className="font-bold text-amber-900">${product.price}</span>
                       </td>
                       <td className="px-6 py-4">
                         <span className={`inline-block px-2 py-1 rounded text-xs font-medium ${product.available ? 'bg-green-100 text-green-800' : 'bg-gray-100 text-gray-800'}`}>
